@@ -6,3 +6,13 @@
 .quarto-title > h4.title {
   font-weight: bold;
 }
+
+.responsive-embed iframe {
+  width: 100%;
+  height: 100%;
+}
+.responsive-embed {
+  position: relative;
+  width: 100%;
+  min-height: 70vh; /* adjust as desired */
+}
